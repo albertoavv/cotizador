@@ -19,7 +19,7 @@ function App() {
          titulo="Cotizador de Seguros" 
       />
       <ContenedorFormulario>
-        
+        Form
       </ContenedorFormulario>
     </Contenedor>
   );
