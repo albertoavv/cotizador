@@ -106,7 +106,7 @@ const Formulario = ({guardarResumen}) => {
         //Europeo 30%
 
         resultado = calcularMarca(marca) * resultado;
-        console.log(resultado);
+        //console.log(resultado);
         
 
         //Basico aumenta 20%
@@ -114,10 +114,10 @@ const Formulario = ({guardarResumen}) => {
 
         const incrementoPlan = obtenerPlan(plan);
 
-        console.log(incrementoPlan);
+        //console.log(incrementoPlan);
         resultado = parseFloat(incrementoPlan * resultado ).toFixed(2);
 
-        console.log(resultado);
+        //console.log(resultado);
 
         //Total
         guardarResumen({
